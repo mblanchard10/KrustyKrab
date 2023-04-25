@@ -6,9 +6,28 @@ body {
    font-family: 'SpongeBob Font Wide', sans-serif;
 }
 
+footer {
+   background-color: #fff56c;
+   color: black;
+   display: block;
+   padding-top: 10px;
+   padding-bottom: 20px; 
+   clear: both;
+   left: 0;
+   right: 0;
+}
+
+footer p {
+   margin: auto;
+   padding-left: 20px;
+   float:left;
+   position: absolute;
+   margin-top: 10px;
+}
+   
 .nav {
   background-image: url("images/SB-background.webp");
-  overflow: hidden;   
+  overflow: hidden;
 }
 
 .nav ul {
@@ -38,5 +57,7 @@ body {
   color: black;
 }
 
-
+.right {
+  text-align: right;
+}
 

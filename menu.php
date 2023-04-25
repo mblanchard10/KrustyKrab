@@ -31,8 +31,8 @@ $date = date('Y');
       <div class="nav">
          <ul>
             <li><a href="index.php">Home</a></li>      
-            <li><a href="about.php">About</a></li>
-            <li><a href="products.php">Products</a></li>      
+            <li><a href="about.php">About</a></li>      
+            <li><a href="products.php">Products</a></li>
             <li><a href="menu.php">Menu</a></li>      
             <li><a href="contact.php">Contact</a></li>      
          </ul>
@@ -40,11 +40,8 @@ $date = date('Y');
       </header> 
 
       <main>
-         <h1>The Krusty Krab - EST. 1999</h1>
          
-         <img src="images/KK.webp" alt="Krusty Krab" height="30%" width="35%">
 
-         <h4 style="text-align:center; margin-bottom: 80px">Home of the Krabby Patty Secret Formula</h4>
       </main>
 
       <footer>
