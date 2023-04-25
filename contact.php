@@ -51,6 +51,9 @@
    </head>
 
    <body>
+      <audio autoplay>
+         <source src="audio/bubbleTrans.mp3" type="audio/mp3">
+      </audio>
       <header>
       <div class="nav">
          <ul>

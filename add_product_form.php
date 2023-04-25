@@ -7,8 +7,6 @@ $statement = $db->prepare($query);
 $statement->execute();
 $VENDOR = $statement->fetchAll();
 $statement->closeCursor();
-
-
 ?>
 
 <!DOCTYPE html>
@@ -19,6 +17,7 @@ $statement->closeCursor();
     <title>Krusty Krab Product Essentials</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.cdnfonts.com/css/spongebob-font-condensed" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     
    <style>
       form {
@@ -67,6 +66,9 @@ $statement->closeCursor();
 
 <!-- the body section -->
 <body>
+    <audio autoplay>
+       <source src="audio/bubbleTrans.mp3" type="audio/mp3">
+    </audio>
     <header style="text-align:center"><h1>Product Manager</h1></header>
 
     <main>
@@ -101,8 +103,9 @@ $statement->closeCursor();
         <p style="text-align: center"><a href="products.php">View Product List</a></p>
     </main>
 
-    <footer>
-        <p>&copy; <?php echo date("Y"); ?> The Krusty Krab, LLC.</p>
-    </footer>
+      <footer>
+         <p>&copy; <?php echo date("Y"); ?> Krusty Krab, LLC.</p>
+         <a href="https://instagram.com/spongebob?igshid=MTIyMzRjYmRlZg=="><i class="fab fa-instagram" style="font-size: 40px; margin-left: 1300px;"></i></a>
+      </footer>
 </body>
 </html>

@@ -29,7 +29,7 @@ $date = date('Y');
 
    <body>
       <audio autoplay>
-         <source src="images/pizza.mp3" type="audio/mp3">
+         <source src="audio/pizza.mp3" type="audio/mp3">
       </audio>
       <header>
       <div class="nav">
