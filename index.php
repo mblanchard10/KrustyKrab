@@ -23,10 +23,14 @@ $date = date('Y');
          text-align: center;
          border-radius: 10px;
       }
+      
     </style>
    </head>
 
    <body>
+      <audio autoplay>
+         <source src="images/pizza.mp3" type="audio/mp3">
+      </audio>
       <header>
       <div class="nav">
          <ul>
@@ -44,7 +48,8 @@ $date = date('Y');
          
          <img src="images/KK.webp" alt="Krusty Krab" height="30%" width="35%">
 
-         <h4 style="text-align:center; margin-bottom: 80px">Home of the Krabby Patty Secret Formula</h4>
+         <h4 style="text-align:center; margin-bottom: 40px">Home of the Krabby Patty Secret Formula</h4>
+         <h5 style="text-align:center;">"WE SHALL NEVER DENY A GUEST <BR> EVEN THE MOST RIDICULOUS REQUEST"</h5>
       </main>
 
       <footer>

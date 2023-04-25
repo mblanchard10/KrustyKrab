@@ -29,13 +29,15 @@ $date = date('Y');
       <main>
          <h1 style="text-align:center">Meet The Team</h1>
          <div style="display: flex;">
-		      <img src="images/MrKrabs.jpeg" alt="My Picture" height="350px" width="450px" style="margin-left:50px; margin-top: 25px;
-               float:left">
-		         <p style="float:right; margin-top:65px; margin-left:50px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida commodo lorem, vel facilisis mi commodo eu. Nam eget augue velit. Fusce vitae commodo erat.</p>
+		      <img src="images/MrKrabs.jpeg" alt="My Picture" height="350px" width="450px" style="margin-left:50px;
+               float:left; border-radius:50%">
+		         <p style="float:right; margin-top:100px; margin-left:50px;">Ahoy mate! My name is Eugenie Krabs and I am the owner of this fine establishment, The Krusty Krab. While I mostly sit around each day and count my pennies, my employees Squidward and Spongebob handle most of the work. You know what they say; if you’re wasting time, you’re wasting money… and that’s just sick. </p>
 	      </div>
 	
          <div style="display: flex; align-items: center;">
-            <p style="flex: 1; margin: 0px 0px 30px 50px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravi    da commodo lorem, vel facilisis mi commodo eu. Nam eget augue velit. Fusce vitae commodo erat.</p>
+            <p style="flex: 1; margin: 0px 0px 30px 50px">
+            Insert Text here
+            </p>
             <img src="images/staff.png" alt="Your Image" style="max-width: 100%; height: auto; margin: 30px 50px 30px">
          </div>   
       </main>
